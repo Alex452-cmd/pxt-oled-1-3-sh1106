@@ -1,19 +1,21 @@
 # SH1106 OLED 1.3" Display for micro:bit
 
-Driver completo per display OLED SH1106 128x64, compatibile con MakeCode 2024/2025.
+Driver per display OLED SH1106 128x64 compatibile con micro:bit e MakeCode.
 
-## Funzioni
-- Testo
-- Pixel
+## Funzionalità
+- Inizializzazione display
+- Scrittura testo
+- Disegno pixel
 - Linee
 - Rettangoli
 - Rettangoli pieni
-- Font 5x7
-- Refresh buffer
-- Indirizzo I2C selezionabile (0x3C / 0x3D)
+- Aggiornamento display
+- Pulizia schermo
 
-## Come usare
-1. Aggiungi l’estensione in MakeCode:
-   https://github.com/Alex452-cmd/pxt-oled-1.3-sh1106
+## Hardware
+Display OLED 1.3" SH1106 I2C  
+Risoluzione: 128x64  
+Indirizzo I2C: 0x3C
 
-2. Usa i blocchi nella categoria **SH1106 Display**.
+## Licenza
+MIT

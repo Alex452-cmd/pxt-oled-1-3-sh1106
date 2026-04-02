@@ -1,15 +1,15 @@
-pxt.json
 {
   "name": "pxt-oled-1.3-sh1106",
   "version": "1.0.0",
-  "description": "SH1106 OLED 1.3 inch display driver for micro:bit (MakeCode 2024 compatible)",
+  "description": "SH1106 OLED 1.3 inch display driver for micro:bit (MakeCode 2026 compatible)",
   "license": "MIT",
   "dependencies": {
     "core": "*"
   },
   "files": [
     "sh1106.ts",
-    "sh1106blocks.ts"
+    "sh1106blocks.ts",
+    "extension.ts"
   ],
   "public": true,
   "supportedTargets": [

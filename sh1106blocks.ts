@@ -1,20 +1,4 @@
-//% color=#00AEEF icon="\uf26c" block="SH1106 Display"
 namespace SH1106 {
-
-    //% block="inizializza SH1106 indirizzo %address"
-    export function initBlock(address: I2CAddress) {
-        init(address)
-    }
-
-    //% block="pulisci schermo"
-    export function clearBlock() {
-        clear()
-    }
-
-    //% block="aggiorna display"
-    export function refreshBlock() {
-        refresh()
-    }
 
     //% block="scrivi testo %text a x %x y %y"
     export function writeStringBlock(x: number, y: number, text: string) {
@@ -37,5 +21,15 @@ namespace SH1106 {
     export function fillRectBlock(x: number, y: number, w: number, h: number) {
         fillRect(x, y, w, h)
         refresh()
+    }
+
+    //% block="cancella schermo"
+    export function clearBlock() {
+        clear()
+    }
+
+    //% block="inizializza display indirizzo %address"
+    export function initBlock(address: I2CAddress) {
+        init(address)
     }
 }
